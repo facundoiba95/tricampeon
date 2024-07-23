@@ -71,9 +71,9 @@ const CardMatch = ({
             <span className='status'>
               {homeScore === awayScore && status === "FINISHED" ? <FaHandshake className='drawIcon'/> : <></>}
               <span>
-                <p>{status === 'FINISHED' || status === 'PLAYING' ? homeScore : ''}</p>
+                <p>{status === 'FINISHED' || status === 'LIVE' ? homeScore : ''}</p>
                 <small>-</small>
-                <p>{status === 'FINISHED' || status === 'PLAYING' ? awayScore : ''}</p>
+                <p>{status === 'FINISHED' || status === 'LIVE' ? awayScore : ''}</p>
               </span>
             </span>
             <span className='teamsMatchAway'>

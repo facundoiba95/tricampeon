@@ -20,6 +20,8 @@ box-shadow: -1px 2px 71px 1px rgba(0,0,0,0.75);
 
 @media (max-width: 480px) {
     height: auto;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 `
 
@@ -42,6 +44,8 @@ height: 100%;
 display: flex;
 flex-direction: column;
 gap:10px;
+
+
 `
 export const ContainerButtonsChannelStyles = styled.div`
 width: 100%;

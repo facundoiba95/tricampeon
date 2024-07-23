@@ -28,6 +28,6 @@ h2 {
 
 @media (max-width: 850px) {
     grid-template-columns: 1fr;
-    padding:0;
+    padding:0px;
 }
 `

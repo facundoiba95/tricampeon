@@ -111,7 +111,7 @@ const NavbarHeader = () => {
         <HeaderListStyle>
           <HeaderItemStyle onClick={goHome}>Home</HeaderItemStyle>
           <HeaderItemStyle onClick={goFeed}>Feed</HeaderItemStyle>
-          <HeaderItemStyle onClick={goChannelSchedule}>Agendas</HeaderItemStyle>
+          {/* <HeaderItemStyle onClick={goChannelSchedule}>Agendas</HeaderItemStyle> */}
           <HeaderItemStyle onClick={goChannels}>Canales</HeaderItemStyle>
         </HeaderListStyle>
         <HeaderListStyle className='registerButtons'>

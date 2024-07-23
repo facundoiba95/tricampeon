@@ -59,11 +59,11 @@ gap: 20px;
 }
 
 .iconStadium {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .iconCup {
-    font-size: 30px;
+    font-size: 40px;
     font-weight:900;
 }
 }
@@ -97,31 +97,33 @@ img {
 }
 
 @media (max-width: 480px) {
+    height: 150px;
     padding: 10px;
     display: grid;
     justify-content: center;
     align-self: center;
+    gap: 0px;
 
     .containerTeams {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        gap: 30px;
+        gap: 10px;
         padding: 0;
 
-        img{
-            width: 35px;
-            height: 35px;
+        img {
+            width: 30px;
+            height: 30px;
         }
 
         h3 {
-            font-size: 1rem;
+            font-size: 0.9rem;
         }
     }
 
     .homeTeam, .awayTeam {
             width: 100%;
-            flex-direction:column;
+            flex-direction: row;
             align-items: center;
             justify-content: center;
         }
@@ -131,25 +133,29 @@ img {
         width: 100%;
         flex-direction: row;
         padding:0;
-        padding-top:10px;
-
+        padding-top:0px;
 
         .iconStadium {
-            width: 30px;
-            height: 30px;
+            width: 35px;
+            height: 35px;
         }
 
         .iconCup {
             width: 30px;
             height: 30px;
-            font-weight:900;
         }
 
         p {
             width: 100%;
             height: 100%;
-            flex-direction:column;
+            font-size: 0.9rem;
+            flex-direction:row;
             text-align: center;
+            gap: 5px;
+        }
+        
+        small {
+            text-align: left;
         }
 }
 }
