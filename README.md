@@ -3,7 +3,7 @@
 > [!NOTE]
 > **Este proyecto se encuentra en desarrollo.**
 >
-Homepage: https://tricampeon.online/ <br/><br/>
+Homepage: https://tricampeon-kappa.vercel.app/ <br/><br/>
 ***Tricampeón*** es una página web que transmite eventos deportivos de distintas ligas, entre ellas:
 - Liga Profesional Argentina
 - Federal A
