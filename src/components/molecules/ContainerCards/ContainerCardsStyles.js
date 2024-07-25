@@ -22,6 +22,7 @@ background: radial-gradient(circle, rgba(32,34,36,1) 6%, rgba(20,22,26,1) 84%);
     img {
         width: 30px;
         height: 30px;
+        object-fit: cover;
     }
 }
 

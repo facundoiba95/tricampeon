@@ -40,7 +40,7 @@ const ChannelSchedule = () => {
     <ChannelScheduleContainerStyle>
       {
         isLoading
-        ? <FootballLoader/>
+        ? <FootballLoader isActive={isLoading}/>
         : status !== 200 && error !== null
         ? <ModalError error={error.code} status={status}/>
         : renderSlide()

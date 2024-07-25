@@ -44,7 +44,8 @@ export const logoLeaguesByCode = {  //codigos para api football data
     "f0atdrdim0sks9zagwg3an9jo": "be",
     "bew0mp74n9712w9ns3dsxrf2s": "fr",
     "19x9mz32ti233f90h6htylf6c": "nl",
-    "929cd2ue4bpcebvx91rx9e3h0": "us"
+    "929cd2ue4bpcebvx91rx9e3h0": "us",
+    "a2yu8vfo8wha3vza31s2o8zkk": "br"
   }
 
   export const getFlagCup = {
@@ -54,7 +55,11 @@ export const logoLeaguesByCode = {  //codigos para api football data
    "3cbstblezc952hfrj9ov2gq38": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0PGNg_8uXdMdzhCnLKpLja0KIetUMVZXbZPLdVAnAwg&s",
    "5411mhsznsbh56a95jq2hd8no": "https://s3.eu-central-1.amazonaws.com/centaur-wp/designweek/prod/content/uploads/2013/07/ScotLeague1cmyk.jpg",
    "ecldra4qmr0i4bs5cyfbiz2ms": "https://brandemia.org/sites/default/files/inline/images/simbolo_libertadores_.jpg",
-   "yrflkbmz3u6h2nn1sjffalg4": "https://e7.pngegg.com/pngimages/758/373/png-clipart-2018-copa-sudamericana-2017-copa-sudamericana-sport-club-corinthians-paulista-2018-world-cup-esporte-clube-bahia-football-sports-2018-thumbnail.png"
+   "yrflkbmz3u6h2nn1sjffalg4": "https://e7.pngegg.com/pngimages/758/373/png-clipart-2018-copa-sudamericana-2017-copa-sudamericana-sport-club-corinthians-paulista-2018-world-cup-esporte-clube-bahia-football-sports-2018-thumbnail.png",
+   "4hshmd65vxz59k2e1ygl05d78" : "https://fotografias-neox.atresmedia.com/clipping/cmsimages01/2017/08/09/4E1EACC2-B905-49AF-A653-2FCB3FA4EBA8/98.jpg?crop=960,540,x0,y69&width=1900&height=1069&optimize=high&format=webply",
+   "bam3j6qs1v79osuz7nwgy4rh0": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzKzC_FnMi4d87Fk53qB7qp94DzgolLnaMnI3CWgA7rw&s", 
+   "ejcp3vqc3ac7q66lowlv41ixg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPF5ZAwNHYtV_93LGD737giRTZRp2uQqcTm8Jm_WlbKg&s",
+   "5n74jbkwct8unq0wq604mrx1w": "https://fotografias-neox.atresmedia.com/clipping/cmsimages01/2017/08/09/4E1EACC2-B905-49AF-A653-2FCB3FA4EBA8/98.jpg?crop=960,540,x0,y69&width=1900&height=1069&optimize=high&format=webply"
   }
   
   export const imgChannel = {

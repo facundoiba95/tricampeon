@@ -46,7 +46,7 @@ const Channels = () => {
         <ChannelListStyles>
             {
                 isLoading
-                ? <FootballLoader/>
+                ? <FootballLoader isActive={isLoading}/>
                 : renderAllChannels()
             }
         </ChannelListStyles>

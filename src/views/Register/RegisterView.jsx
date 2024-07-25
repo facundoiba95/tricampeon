@@ -33,7 +33,7 @@ const RegisterView = () => {
     <>
     {
       isLoading
-      ? <FootballLoader/>
+      ? <FootballLoader isActive={isLoading}/>
       : <FormRegister/>
     }
     </>

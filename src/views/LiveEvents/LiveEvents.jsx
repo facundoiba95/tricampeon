@@ -7,7 +7,7 @@ const LiveEvents = ({children}) => {
    const location = useLocation()
    useEffect(() => {
     if(location.pathname === '/liveEvents/channels'){
-      setTitlePage('CANALES EN DIRECTO')
+      setTitlePage("")
     }
    }, [])
   return (

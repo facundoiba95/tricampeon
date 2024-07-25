@@ -34,7 +34,7 @@ const LoginView = () => {
     <>
     {
       isLoading 
-      ? <FootballLoader/>
+      ? <FootballLoader isActive={isLoading}/>
       : <FormLogin/>
     }
     </>
